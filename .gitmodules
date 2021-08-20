@@ -1,0 +1,6 @@
+[submodule "kit-fe"]
+	path = kit-fe
+	url = https://github.com/Kids-In-Taiwan/Frontend.git
+[submodule "kit-be"]
+	path = kit-be
+	url = https://github.com/Kids-In-Taiwan/Backend.git
