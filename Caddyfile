@@ -1,5 +1,7 @@
 http://kitwaves.hdfs.ntnu.edu.tw {
-  reverse_proxy localhost:5000 {
-    header_up Host localhost
+  handle_path /api/* {
+    reverse_proxy localhost:5000 {
+      header_up Host localhost
+    }
   }
 }
